@@ -1,0 +1,96 @@
+body{
+	background: linear gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5));
+	background-size: cover;
+	background-position: center center;
+	background-image: url(bgimage.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 600px auto;
+}
+
+
+
+
+.information-box{
+	width: 1349px;
+	float: none;
+	margin top: auto; 
+	/*margin-left: 10px;*/
+	font-weight: bold;
+	/*position: va*/
+	background: rgba(255, 174, 26, 0.3);
+	padding: 20px;
+	text-align: center;
+
+}
+
+.profile-box{
+	width: 900px;
+	float: none;
+	margin top: auto; 
+	margin-left: 230px;
+	/*margin-left: 10px;*/
+	font-weight: bold;
+	/*position: va*/
+	background: rgba(255, 174, 26, 0.3);
+	padding: 20px;
+	text-align: center;
+}
+
+.login-box{
+	max-width: 450px;
+	float: none;
+	margin top: 0px; 
+	margin-left: 330px;
+	font-weight: bold;
+	/*position: va*/
+
+}
+
+.login-left{
+	background: rgba(255, 174, 26, 0.3);
+	padding: 20px;
+}
+
+.login-right{
+	background: rgba(255, 174, 26, 0.3);
+	padding: 20px;
+}
+
+.form-control{
+	background-color: transparent !important;
+}
+
+a{
+	color: black ;
+	margin-top: -200px !important;
+}
+
+h1{
+	color: black ;
+	margin-top: 50px !important;
+	text-align: center;
+}
+
+h2{
+	color: black ;
+	
+	text-align: center;
+}
+
+h3{
+	color: black ;
+
+	text-align: center;
+}
+
+h4{
+	color: black ;
+	
+	text-align: center;
+}
+
+
+p{
+	font-weight: bold;
+}

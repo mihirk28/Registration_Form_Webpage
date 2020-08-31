@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Event Registration </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+</head>
+<body>
+	
+
+	<div class="information-box">
+		<img src="cocktail.jpg" alt="usercode" width="140" height="140"> <br><br>
+		<h2> BIENVENUE <br>BIENVENIDAS</h2>
+        <h4> WELCOME TO OUR COCKTAIL EVENT </h4>
+        <h4> Venue: Central Hall, Paris <br> Entry Time: 8pm </h4>
+        <h5> Join together on this event</h5>
+        <h5> Do registration and get QR-code for free entry </h4>
+        <h4>HURRY UP!!</h5>
+    </div>
+<div class="container">
+<div class="login-box">
+	<div class="row">
+	<div class="col-md-6 login-left">
+		<h2> Login Here </h2>
+		<form action="validation.php" method="post">
+			<div class="form-group">
+				<label>Username</label>
+				<input type="text" name="loginUsername" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label>Password</label>
+				<input type="password" name="loginPassword" class="form-control" required>
+			</div>
+			<button type="submit" class="btn btn-primary" id="loginButton"> Login </button>
+		 </form>
+	</div>	
+
+	<div class="col-md-6 login-right">
+		<h2> Register Here </h2>
+		<form action="registration.php" method="post">
+			<div class="form-group">
+				<label>First Name</label>
+				<input type="text" name="firstname" class="form-control" required>
+			</div>
+
+			<div class="form-group">
+				<label>Last Name</label>
+				<input type="text" name="lastname" class="form-control" required>
+			</div>
+
+			<div class="form-group">
+				<label>Gender</label>
+				<input type="radio" name="gender" value="male" class="form-control" id="sexMale" required> Male  
+				<input type="radio" name="gender" value="female" class="form-control" id="sexFemale" required> Female 
+			</div> 
+			 
+			<div class="form-group">
+				<label>Age (Years)</label>
+				<input type="number" name="age" min="18" max="100" class="form-control" required>
+			</div>
+			
+			<div class="form-group">
+				<label>Email</label>
+				<input type="email" name="email" class="form-control" required>
+			</div>
+
+			<div class="form-group">
+				<label>Username</label>
+				<input type="text" name="username" class="form-control" required>
+			</div>
+			
+			<div class="form-group">
+				<label>Password</label>
+				<input type="password" name="password" class="form-control" required>
+			</div>
+			<button type="submit" class="btn btn-primary" id="registerButton"> Register </button>
+		 </form>
+	</div>
+	</div>
+</div>	
+</div>
+</body>
+</html>
