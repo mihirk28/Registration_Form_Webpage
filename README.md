@@ -25,3 +25,5 @@ PATH: http://localhost/phpmyadmin/
 
 2. In MySQL database, create a database and then create a table in it. 
 3. The table should be with 7 columns to save the data for 'firstName', 'lastName', 'gender', 'age', 'email', 'username' and 'password'.
+
+$
